@@ -28,7 +28,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Email</p>
-                    <p className="text-slate-400">your.email@example.com</p>
+                    <p className="text-slate-400">adarsh@gmail.com</p>
                   </div>
                 </div>
                 
@@ -38,10 +38,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-white font-semibold">LinkedIn</p>
-                    <p className="text-slate-400">linkedin.com/in/yourprofile</p>
+                    <p className="text-slate-400">https://www.linkedin.com/in/adarsh-a-devadiga</p>
                   </div>
                 </div>
-                
+{/*                 
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-600 rounded-lg flex items-center justify-center mr-4">
                     <Code className="w-6 h-6 text-white" />
@@ -50,7 +50,7 @@ const Contact = () => {
                     <p className="text-white font-semibold">GitHub</p>
                     <p className="text-slate-400">github.com/yourusername</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

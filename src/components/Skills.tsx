@@ -3,15 +3,15 @@ import { Code, Briefcase } from "lucide-react";
 
 const Skills = () => {
   const frontendSkills = [
-    "React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Next.js", "Vue.js"
+    "React", "JavaScript", "HTML5", "CSS3"
   ];
   
   const backendSkills = [
-    "Node.js", "Python", "Express.js", "Django", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"
+    "Node.js", "Python", "Express.js","PostgreSQL","REST APIs"
   ];
   
   const tools = [
-    "Git", "Docker", "AWS", "Vercel", "Figma", "VS Code", "Postman", "Linux"
+    "Git","Webflow","Zoho Creator", "AWS", "Vercel", "VS Code", "Postman"
   ];
 
   return (

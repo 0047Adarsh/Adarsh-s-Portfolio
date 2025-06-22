@@ -21,13 +21,22 @@ const Hero = () => {
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          {/* <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Full Stack Developer
+          </h1> */}
+          <p className="text-lg md:text-xl text-gray-300 mb-2">Hi, I'm</p>
+
+          <h1 className="text-3xl md:text-5xl font-semibold text-white mb-1">
+            Adarsh A Devadiga
           </h1>
+
+          <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            Full Stack Developer
+          </h2>
+
           
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Passionate about creating innovative web solutions with 2 years of experience 
-            in modern technologies and user-centered design.
+            Passionate about crafting innovative web solutions with 2+ years of experience in modern technologies and user-centered design.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

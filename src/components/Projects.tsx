@@ -21,6 +21,14 @@ const Projects = () => {
       githubUrl: "#"
     },
     {
+      title: "Uravu Labs Landing Page",
+      description: "A visually immersive and responsive landing page built using Webflow. Designed for a sustainability-focused startup to communicate their mission and product offerings effectively.",
+      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/Uravu%20Landing%20Page.png?updatedAt=1750532573725",
+      technologies: ["Webflow","JavaScript","Spline"],
+      liveUrl: "https://www.uravulabs.com",
+      githubUrl: "#"
+    },
+    {
       title: "Weather Dashboard",
       description: "A responsive weather application with location-based forecasts, interactive maps, and historical data visualization using modern APIs.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop",
@@ -67,15 +75,32 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-3">
-                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white flex-1">
+                
+                {/* <div className="flex gap-3">
+                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
+                    <Button size="sm" className="bg-blue-60N0 hover:bg-blue-700 text-white flex-1">
                     <Link className="w-4 h-4 mr-2" />
-                    Live Demo
+                    View Project
                   </Button>
+                  </a>
                   <Button size="sm" variant="outline" className="border-slate-600 text-slate-300 hover:bg-slate-700">
                     <Code className="w-4 h-4" />
                   </Button>
+                </div> */}
+                <div className="flex gap-3">
+                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
+                    <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center">
+                      <Link className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                  </a>
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                    <Button size="sm" variant="outline" className="border-slate-600 text-slate-300 hover:bg-slate-700 flex items-center justify-center">
+                      <Code className="w-4 h-4" />
+                    </Button>
+                  </a>
                 </div>
+
               </div>
             </div>
           ))}

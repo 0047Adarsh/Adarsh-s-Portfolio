@@ -2,21 +2,18 @@
 const About = () => {
   return (
     <section className="py-20 px-4 bg-slate-800/50">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             About Me
-          </h2>
+          </h2>     
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-slate-300 leading-relaxed">
-              I'm a dedicated full-stack developer with 2 years of hands-on experience 
-              building scalable web applications. My journey in tech has been driven by 
-              curiosity and a passion for solving complex problems through clean, 
-              efficient code.
+              I’m a tech enthusiast and full-stack developer passionate about building impactful, sustainable, and intelligent digital solutions. With a strong foundation in software development, automation, and system integration, I specialize in crafting web applications, customizing ERP systems, and streamlining business operations through smart technology.
             </p>
             
             <p className="text-lg text-slate-300 leading-relaxed">
@@ -39,7 +36,7 @@ const About = () => {
           </div>
           
           <div className="relative">
-            <div className="bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-2xl p-8 backdrop-blur-sm border border-slate-700">
+            <div className="bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-2xl p-8 backdrop-blur-sm border border-slate-600">
               <img 
                 src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=600&fit=crop&crop=faces" 
                 alt="Developer workspace" 

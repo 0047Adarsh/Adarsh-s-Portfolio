@@ -5,19 +5,19 @@ import { Link, Code } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      title: "Custom ERP on Zoho Creator",
+      description: "Designed and developed a fully customized ERP for internal operations including client invoicing, inventory tracking and more. Integrated workflow automations, reports, and user access control using Deluge scripting and Zoho Creator tools.",
+      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/ERP%20Main%20Page.png",
+      technologies: ["Zoho Creator", "Deluge Script", "Workflow Automation", "Custom Reports"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application built with React and Firebase. Real-time updates, team collaboration, and project tracking.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
-      technologies: ["React", "Firebase", "Tailwind CSS", "TypeScript"],
-      liveUrl: "#",
+      title: "Salesradar",
+      description: "SalesRadar is a powerful analytic tool designed to track and visualize sales performance. It organizes daily, weekly, and monthly data into easy-to-understand cohort views. With support for filters, it enables businesses to monitor customer health, identify trends, and make data-driven decisions.",
+      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/Salas%20Radar%20Page.png",
+      technologies: ["Express.js", "REST APi", "EJS", "Charting"],
+      liveUrl: "https://salesradar.onrender.com/dashboard",
       githubUrl: "#"
     },
     {
@@ -29,11 +29,11 @@ const Projects = () => {
       githubUrl: "#"
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and historical data visualization using modern APIs.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop",
-      technologies: ["Vue.js", "Express.js", "MongoDB", "Chart.js"],
-      liveUrl: "#",
+      title: "TVI Landing Page",
+      description: "An undergoing project to build a responsive landing page.",
+      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/TVI%20Landing%20Page.png?updatedAt=1750605911593",
+      technologies: ["HTML&CSS", "Express.js", "Postgres", "EJS"],
+      liveUrl: "https://the-venture-insight.onrender.com/",
       githubUrl: "#"
     }
   ];

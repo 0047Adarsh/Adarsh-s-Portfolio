@@ -24,14 +24,14 @@ const Hero = () => {
           {/* <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Full Stack Developer
           </h1> */}
-          <p className="text-lg md:text-xl text-gray-300 mb-2">Hi, I'm</p>
+          <p className="text-lg md:text-3xl font-bold text-gray-300 mb-2">Hi, I'm</p>
 
-          <h1 className="text-3xl md:text-5xl font-semibold text-white mb-1">
+          <h1 className="text-3xl md:text-6xl font-bold text-white mb-1">
             Adarsh A Devadiga
           </h1>
 
-          <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Full Stack Developer
+          <h2 className="text-7xl md:text-5xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            Full Stack and Cloud Deployment Engineer
           </h2>
 
           

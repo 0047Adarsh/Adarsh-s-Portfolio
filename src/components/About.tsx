@@ -2,6 +2,7 @@
 const About = () => {
   return (
     <section className="py-20 px-4 bg-slate-800/50">
+      
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

@@ -5,6 +5,23 @@ import { Link, Code } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+  title: "FromAir ERP",
+  description: "A customized ERPNext-based platform built to automate and scale the operations of a water-from-air manufacturing company. FromAir ERP manages the complete lifecycle - production, bottle filling, warehouse logistics, and customer returns through deeply integrated workflows. The system extends ERPNext with intelligent routing via Google Maps API, and real-time machine runtime analytics for production insights.",
+  image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/ERPNxt.png?updatedAt=1760128484011",
+  technologies: ["ERPNext", "Frappe Framework", "Python", "JavaScript", "MariaDB", "Google Maps API"],
+  liveUrl: "#",
+  githubUrl: "#"
+},
+        {
+      title: "Skill Lens",
+      description: "An AI-powered tool to analyze resumes, identify key skills, and provide personalized insights to help users improve their professional profile.",
+      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/SkillLens.png?updatedAt=1760127970067",
+      technologies: ["Next.js", "Node.js", "PostgreSQL", "CSS", "OpenAI"],
+      liveUrl: "https://skilllens.vercel.app/",
+      githubUrl: "https://github.com/0047Adarsh/skilllens"
+    }
+    ,
+    {
       title: "Custom ERP on Zoho Creator",
       description: "Designed and developed a fully customized ERP for internal operations including client invoicing, inventory tracking and more. Integrated workflow automations, reports, and user access control using Deluge scripting and Zoho Creator tools.",
       image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/ERP%20Main%20Page.png",
@@ -35,7 +52,16 @@ const Projects = () => {
       technologies: ["HTML&CSS", "Express.js", "Postgres", "EJS"],
       liveUrl: "https://the-venture-insight.onrender.com/",
       githubUrl: "#"
-    }
+    },
+    {
+  title: "FromAir OMS",
+  description: "A comprehensive Order Management System (OMS) designed to optimize the full order lifecycle for a water-from-air enterprise. FromAir OMS automates order intake, and dispatch scheduling while integrating seamlessly with ERPNext. The system is enhanced with a custom-built WhatsApp chatbot that enables customers and delivery partners to place orders, receive live updates, and confirm deliveries in real time.",
+  image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/oms-app.png?updatedAt=1760128933779",
+  technologies: ["NextJS", "JavaScript", "Twilio WhatsApp API", "Postgres"],
+  liveUrl: "#",
+  githubUrl: "#"
+},
+
   ];
 
   return (

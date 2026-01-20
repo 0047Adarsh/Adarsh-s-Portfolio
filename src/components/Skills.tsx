@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="container mx-auto max-w-8xl px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Technical Skills
+            Core Technical Capabilities
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-xl text-slate-300 mt-6 max-w-2xl mx-auto">

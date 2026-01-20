@@ -5,45 +5,52 @@ import { Link, Code } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-  title: "FromAir ERP",
-  description: "A customized ERPNext-based platform built to automate and scale the operations of a water-from-air manufacturing company. FromAir ERP manages the complete lifecycle - production, bottle filling, warehouse logistics, and customer returns through deeply integrated workflows. The system extends ERPNext with intelligent routing via Google Maps API, and real-time machine runtime analytics for production insights.",
-  image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/ERPNxt.png?updatedAt=1760128484011",
-  technologies: ["ERPNext", "Frappe Framework", "Python", "JavaScript", "MariaDB", "Google Maps API"],
-  liveUrl: "#",
-  githubUrl: "#"
+title: "FromAir ERP - Production Operations Platform",
+description: "Designed and implemented custom ERP workflows on top of ERPNext to support end-to-end manufacturing and logistics operations. Owned workflow design, business logic customization, and system integrations used in live production.",
+image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/ERPNxt.png?updatedAt=1760128484011",
+technologies: ["ERPNext", "Frappe", "Python", "Workflow Design","JavaScript", "Cloud Integration"],
+liveUrl: "#",
+githubUrl: "#",
+projectType: "professional",
 },
+{
+      title: "Internal Operations Platform (Zoho Creator)",
+      description: "Designed and implemented a custom internal operations platform using Zoho Creator to support invoicing, inventory tracking, and operational reporting. Owned workflow automation, access control, and reporting logic, enabling teams to manage day-to-day operations through a centralized system.",
+      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/ERP%20Main%20Page.png",
+      technologies: ["Zoho Creator", "Workflow Automation", "Business Logic", "Reporting Systems"],
+      liveUrl: "#",
+      githubUrl: "#",
+      projectType: "professional"
+    },
+    {
+      title: "SalesRadar — Sales Analytics & Reporting Platform",
+      description: "Designed and built a sales analytics and reporting platform to aggregate and analyze daily, weekly, and monthly sales data. Owned backend API design, data aggregation logic, and dashboard views, enabling teams to monitor performance trends, customer cohorts, and key business metrics for operational decision-making.",
+      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/Salas%20Radar%20Page.png",
+      technologies: ["Node.js", "REST APIs", "Data Aggregation", "Analytics Dashboards","Backend Architecture"],
+      liveUrl: "https://salesradar.onrender.com/dashboard",
+      githubUrl: "#",
+      projectType: "professional",
+    },
         {
       title: "Skill Lens",
       description: "An AI-powered tool to analyze resumes, identify key skills, and provide personalized insights to help users improve their professional profile.",
       image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/SkillLens.png?updatedAt=1760127970067",
       technologies: ["Next.js", "Node.js", "PostgreSQL", "CSS", "OpenAI"],
       liveUrl: "https://skilllens.vercel.app/",
-      githubUrl: "https://github.com/0047Adarsh/skilllens"
+      githubUrl: "https://github.com/0047Adarsh/skilllens",
+      projectType: "public",
     }
     ,
-    {
-      title: "Custom ERP on Zoho Creator",
-      description: "Designed and developed a fully customized ERP for internal operations including client invoicing, inventory tracking and more. Integrated workflow automations, reports, and user access control using Deluge scripting and Zoho Creator tools.",
-      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/ERP%20Main%20Page.png",
-      technologies: ["Zoho Creator", "Deluge Script", "Workflow Automation", "Custom Reports"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Salesradar",
-      description: "SalesRadar is a powerful analytic tool designed to track and visualize sales performance. It organizes daily, weekly, and monthly data into easy-to-understand cohort views. With support for filters, it enables businesses to monitor customer health, identify trends, and make data-driven decisions.",
-      image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/Salas%20Radar%20Page.png",
-      technologies: ["Express.js", "REST APi", "EJS", "Charting"],
-      liveUrl: "https://salesradar.onrender.com/dashboard",
-      githubUrl: "#"
-    },
+    
+    
     {
       title: "Uravu Labs Landing Page",
       description: "A visually immersive and responsive landing page built using Webflow. Designed for a sustainability-focused startup to communicate their mission and product offerings effectively.",
       image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/Uravu%20Landing%20Page.png?updatedAt=1750532573725",
       technologies: ["Webflow","JavaScript","Spline"],
       liveUrl: "https://www.uravulabs.com",
-      githubUrl: "#"
+      githubUrl: "#",
+      projectType: "public",
     },
     {
       title: "TVI Landing Page",
@@ -51,7 +58,8 @@ const Projects = () => {
       image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/TVI%20Landing%20Page.png?updatedAt=1750605911593",
       technologies: ["HTML&CSS", "Express.js", "Postgres", "EJS"],
       liveUrl: "https://the-venture-insight.onrender.com/",
-      githubUrl: "#"
+      githubUrl: "#",
+      projectType: "public",
     },
     {
   title: "FromAir OMS",
@@ -59,7 +67,8 @@ const Projects = () => {
   image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/oms-app.png?updatedAt=1760128933779",
   technologies: ["NextJS", "JavaScript", "Twilio WhatsApp API", "Postgres"],
   liveUrl: "#",
-  githubUrl: "#"
+  githubUrl: "#",
+  projectType: "professional",
 },
 
   ];
@@ -113,6 +122,17 @@ const Projects = () => {
                     <Code className="w-4 h-4" />
                   </Button>
                 </div> */}
+                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
+                    <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center mb-2">
+                      <Link className="w-4 h-4 mr-2" />
+                      View Case Study
+                    </Button>
+                  </a>
+                {project.projectType === "professional" ?
+                    <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center">
+                      🚫 Private Repo
+                    </Button>
+                  : (
                 <div className="flex gap-3">
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
                     <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center">
@@ -126,7 +146,7 @@ const Projects = () => {
                     </Button>
                   </a>
                 </div>
-
+                )}
               </div>
             </div>
           ))}

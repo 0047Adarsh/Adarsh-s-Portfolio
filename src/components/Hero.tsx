@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 animate-pulse"></div>
       <div className="container mx-auto text-center relative z-10">
         <div className="animate-fade-in">
-          <div className="mb-8 flex justify-center">
+          {/* <div className="mb-8 flex justify-center">
             <div className="relative">
               <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
                 <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
@@ -19,24 +19,52 @@ const Hero = () => {
                 <Code className="w-4 h-4 text-white" />
               </div>
             </div>
+            <div>
+            <p className="text-lg md:text-3xl font-bold text-gray-300 mb-1">Hi, I'm</p>
+            <h1 className="text-3xl md:text-6xl font-bold text-white">Adarsh A Devadiga</h1>
+            </div>
+          </div> */}
+
+          <div className="mb-8 flex justify-center">
+            <div className="flex items-center gap-6 text-left">
+              
+              <div className="relative">
+                <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
+                  <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
+                    <User className="w-16 h-16 text-white" />
+                  </div>
+                </div>
+                <div className="absolute -bottom-2 -right-2 bg-green-500 w-8 h-8 rounded-full flex items-center justify-center">
+                  <Code className="w-4 h-4 text-white" />
+                </div>
+              </div>
+
+              <div className="text-left">
+                <p className="text-lg md:text-3xl font-bold text-gray-300 mb-1">
+                  Hi, I'm
+                </p>
+                <h1 className="text-3xl md:text-6xl font-bold text-white">
+                  Adarsh A Devadiga
+                </h1>
+              </div>
+
+            </div>
           </div>
+
           
           {/* <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Full Stack Developer
           </h1> */}
-          <p className="text-lg md:text-3xl font-bold text-gray-300 mb-2">Hi, I'm</p>
+         
 
-          <h1 className="text-3xl md:text-6xl font-bold text-white mb-1">
-            Adarsh A Devadiga
-          </h1>
-
-          <h2 className="text-7xl md:text-5xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Full Stack and Cloud Deployment Engineer
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            Senior Full-Stack Engineer working on ERPs, full-stack <br/>applications, and cloud-native data systems.
+            
           </h2>
 
           
-          <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Passionate about crafting innovative web solutions with 2+ years of experience in modern technologies and user-centered design.
+          <p className="text-xl md:text-3xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+            Building production-grade systems for real businesses
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

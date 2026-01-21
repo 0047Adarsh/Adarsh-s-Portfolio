@@ -57,7 +57,7 @@ const Hero = () => {
           </h1> */}
          
 
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-4xl font-semi-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Senior Full-Stack Engineer working on ERPs, full-stack <br/>applications, and cloud-native data systems.
             
           </h2>

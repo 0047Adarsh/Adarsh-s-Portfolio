@@ -23,7 +23,7 @@ projectType: "professional",
       projectType: "professional"
     },
     {
-      title: "SalesRadar — Sales Analytics & Reporting Platform",
+      title: "SalesRadar - Sales Analytics & Reporting Platform",
       description: "Designed and built a sales analytics and reporting platform to aggregate and analyze daily, weekly, and monthly sales data. Owned backend API design, data aggregation logic, and dashboard views, enabling teams to monitor performance trends, customer cohorts, and key business metrics for operational decision-making.",
       image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/Salas%20Radar%20Page.png",
       technologies: ["Node.js", "REST APIs", "Data Aggregation", "Analytics Dashboards","Backend Architecture"],
@@ -41,17 +41,26 @@ projectType: "professional",
       projectType: "public",
     }
     ,
-    
-    
     {
-      title: "Uravu Labs Landing Page",
-      description: "A visually immersive and responsive landing page built using Webflow. Designed for a sustainability-focused startup to communicate their mission and product offerings effectively.",
+      title: "Uravu Labs - Landing Page",
+      description: "A visually immersive and responsive marketing website built to showcase Uravu’s products and mission. Focused on clean UI, smooth interactions, and performance across devices. Worked closely with design and product teams to implement layouts, animations, and interactive elements that improved user engagement and brand presence.",
       image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/Uravu%20Landing%20Page.png?updatedAt=1750532573725",
-      technologies: ["Webflow","JavaScript","Spline"],
+      technologies: ["Webflow","JavaScript","Spline","SEO Optimization", "Performance Optimization"],
       liveUrl: "https://www.uravulabs.com",
       githubUrl: "#",
       projectType: "public",
     },
+    {
+  title: "FromAir – Landing & E-commerce",
+  description: "A visually immersive and responsive web platform built to showcase and sell Uravu’s beverage products. Designed and developed a high-conversion landing experience along with an integrated e-commerce flow, focusing on clean UI, smooth interactions, and reliable checkout. Worked closely with design and product teams to implement layouts, animations, and customer journeys that improved engagement and conversion.",
+  image: "https://ik.imagekit.io/Adarsh0047/Portfolio%20Image%20Directory/FromAir%20Main%20Page.png",
+  technologies: ["Webflow", "JavaScript", "Payment Gateway Integration","SEO Optimization", "Performance Optimization"
+],
+  liveUrl: "https://www.fromair.club",
+  githubUrl: "#",
+  projectType: "public",
+}
+,
     {
       title: "TVI Landing Page",
       description: "An undergoing project to build a responsive landing page.",
@@ -86,7 +95,10 @@ projectType: "professional",
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
+
           {projects.map((project, index) => (
             <div key={index} className="bg-slate-900/50 rounded-2xl overflow-hidden border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:transform hover:scale-105 group">
               <div className="relative overflow-hidden">
@@ -122,12 +134,12 @@ projectType: "professional",
                     <Code className="w-4 h-4" />
                   </Button>
                 </div> */}
-                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
+                {/* <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
                     <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center mb-2">
                       <Link className="w-4 h-4 mr-2" />
                       View Case Study
                     </Button>
-                  </a>
+                  </a> */}
                 {project.projectType === "professional" ?
                     <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center">
                       🚫 Private Repo

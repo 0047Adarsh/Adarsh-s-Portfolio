@@ -2,7 +2,7 @@ import { Code, Briefcase, Wrench, Settings2 } from "lucide-react";
 
 const Skills = () => {
   const frontendSkills = [
-    "React", "JavaScript", "HTML5", "CSS3", "Webflow"
+    "React", "JavaScript", "HTML5", "Tailwind & CSS3", "Webflow"
   ];
   
   const backendSkills = [
